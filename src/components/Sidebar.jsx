@@ -25,8 +25,8 @@ const Sidebar = () => {
 
 
 return(
-  <>
-  <div className = "md:flex hidden flex-col w-[240px] py-10 px-4 bg-gradient-to-br from-black to-[#c4dbe0] backdrop-blur-sm">
+<>
+  <div className = "md:flex hidden flex-col  w-[240px] py-10 px-4 bg-gradient-to-br from-black to-[#c4dbe0] backdrop-blur-sm">
     <img src={logo} alt="logo" className='w-full h-14 object-contain'/>
     <NavLinks/>
   </div>
@@ -44,7 +44,7 @@ return(
     <img src={logo} alt="logo" className='w-full h-14 object-contain'/>
     <NavLinks  handleClick={() => setMobileMenuOpen(false)}/>
   </div>
-  </>
+</>
 )
 
 
